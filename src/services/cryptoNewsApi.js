@@ -5,6 +5,8 @@ const cryptoNewsHeaders = {
     'X-RapidAPI-Key': '0c89c12a24msh3ef74914f4d513ep130748jsna66c786bb83f',
     'X-RapidAPI-Host': 'bing-news-search1.p.rapidapi.com'
 }
+//'X-RapidAPI-Key': `Bearer ${process.env.REACT_APP_NEWS_API_KEY}`
+//'X-RapidAPI-Host': process.env.REACT_APP_NEWS_API_HOST
 
 const baseUrl = "https://bing-news-search1.p.rapidapi.com"
 const createRequest = (url) => ({ url, headers: cryptoNewsHeaders})
