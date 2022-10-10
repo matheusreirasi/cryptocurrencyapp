@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery} from "@reduxjs/toolkit/query/react"
 
 
 const cryptoApiHeaders = {
-    'X-RapidAPI-Key': `Bearer ${process.env.REACT_APP_RAPIDAPI_KEY}`,
+    'X-RapidAPI-Key': 'fc954b2d8bmshfa596ce4f880bf2p185539jsn09b3602ecdc4',
     'X-RapidAPI-Host': process.env.REACT_APP_RAPIDAPI_HOST
 }
 
@@ -33,3 +33,4 @@ export const {
     useGetCryptoDetailsQuery,
     useGetCryptoHistoryQuery,
 } = cryptoApi
+//this is like a useState hook of react
