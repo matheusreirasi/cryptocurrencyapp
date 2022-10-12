@@ -9,8 +9,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Website containing information about cryptocurrencies and some news about it. On the website is made some basic request using APIs from Bing News and Coin Ranking, both available on RapidApi platform.
 
 ## Technologies
-- `[ReactJs]` - Used to build the website.
-- `[Redux]` - Handle requests of the api.
-- `[Ant Design]` - Stylish the components of the website.
+- `ReactJs` - Used to build the website.
+- `Redux` - Handle requests of the api.
+- `Ant Design` - Stylish the components of the website.
 
 ## Notes
